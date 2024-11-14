@@ -2,6 +2,19 @@
 
 This repository contains a collection of several IQA metrics in Python (SSIM, PSNR, MS-SSIM, VIF, DISTS, HaarPSI, LPIPS, PaQ2PiQ) and Matlab (SSIM, PSNR, MS-SSIM, IW-SSIM, DISTS, DSS, FSIM, GMSD, HaarPSI, MDSI, NIQE, VSI, BRISQUE) used in the paper [A study on the adequacy of common IQA measures for medical images](https://arxiv.org/abs/2405.19224) for several datasets.
 
+If you use this code, please cite the paper:
+```
+@InProceedings{breger2024study,
+      title={A study on the adequacy of common IQA measures for medical images}, 
+      author={Anna Breger and Clemens Karner and Ian Selby and Janek Gröhl and Sören Dittmer and Edward Lilley and Judith Babar and Jake Beckford and Timothy J Sadler and Shahab Shahipasand and Arthikkaa Thavakumar and Michael Roberts and Carola-Bibiane Schönlieb},
+      year={2024},
+      pages={accepted},
+      eventtitle={Medical Imaging and Computer-Aided Diagnosis (MICAD) 2024},
+      series={Springer Lecture Notes in Electrical Engineering},
+      venue={Manchester, UK}
+}
+```
+
 ## How to use this code
 
 First, store the dataset in the dataset folder, with subfolders for each dataset, e.g. "./datasets/DATASETNAME/". Each dataset subfolder has to contain for each dataset entry a .mat file which contains the variables:
