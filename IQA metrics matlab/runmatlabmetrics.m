@@ -110,7 +110,6 @@ for i_dataset=1:length(datasets)
         tempfilename=resultspath+algorithmname+"/"+algorithmname+file_name.name;
         if runPSNR&& ~isfile(tempfilename)
             algorithmvalue=psnr(deg_img_uint,ref_img_uint);
-            algorithmname='PSNR_matlab';
             save(tempfilename,"algorithmvalue","algorithmname","name");
         end
 
