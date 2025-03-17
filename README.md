@@ -1,9 +1,9 @@
 # IQA-eval
 
-This repository contains a collection of several IQA metrics in Python (SSIM, PSNR, MS-SSIM, VIF, DISTS, HaarPSI, LPIPS, PaQ2PiQ) and Matlab (SSIM, PSNR, MS-SSIM, IW-SSIM, DISTS, DSS, FSIM, GMSD, HaarPSI, MDSI, NIQE, VSI, BRISQUE) used in the paper [A study on the adequacy of common IQA measures for medical images](https://arxiv.org/abs/2405.19224) for several datasets.
+This repository contains a **collection of several IQA metrics** in Python (SSIM, PSNR, MS-SSIM, VIF, DISTS, HaarPSI, LPIPS, PaQ2PiQ) and Matlab (SSIM, PSNR, MS-SSIM, IW-SSIM, DISTS, DSS, FSIM, GMSD, HaarPSI, MDSI, NIQE, VSI, BRISQUE) used in the paper [A study on the adequacy of common IQA measures for medical images](https://arxiv.org/abs/2405.19224) for several datasets.
 
 
-Furthermore, we provide annotations for the datasets:
+Furthermore, we provide **annotations** for the datasets:
 * [LIVE Image Quality Assessment Database Release 2](http://live.ece.utexas.edu/research/quality), converted to grayscale  with the in-built MATLAB function mat2gray
 * [LIVE Multiply Distorted Image Quality Database](https://live.ece.utexas.edu/research/Quality/live_multidistortedimage.html), converted to grayscale  with the in-built MATLAB function mat2gray
 
