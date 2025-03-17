@@ -2,7 +2,12 @@
 
 This repository contains a collection of several IQA metrics in Python (SSIM, PSNR, MS-SSIM, VIF, DISTS, HaarPSI, LPIPS, PaQ2PiQ) and Matlab (SSIM, PSNR, MS-SSIM, IW-SSIM, DISTS, DSS, FSIM, GMSD, HaarPSI, MDSI, NIQE, VSI, BRISQUE) used in the paper [A study on the adequacy of common IQA measures for medical images](https://arxiv.org/abs/2405.19224) for several datasets.
 
-If you use this code, please cite the paper:
+
+Furthermore, we provide annotations for the datasets:
+* [LIVE Image Quality Assessment Database Release 2](http://live.ece.utexas.edu/research/quality), converted to grayscale  with the in-built MATLAB function mat2gray
+* [LIVE Multiply Distorted Image Quality Database](https://live.ece.utexas.edu/research/Quality/live_multidistortedimage.html), converted to grayscale  with the in-built MATLAB function mat2gray
+
+If you use this code or the annotations, please cite the paper:
 ```
 @InProceedings{breger2024study,
       title={A study on the adequacy of common IQA measures for medical images}, 
@@ -26,8 +31,4 @@ If several annotations for a dataset are available, they have to be saved as sep
 Then, to run the metrics, execute "./IQA metrics python/runpythonmetrics.py" and "./IQA metrics matlab/runmatlabmetrics.m". For the python metrics, it is necessary to create a virtual environment for each metric in  "./IQA metrics python/METRICNAME/venv/" and for the file "./IQA metrics python/runpythonmetrics.py" in "./IQA metrics python/venv/". The necessary requirements.txt files are provided in each folder.
 
 Finally, execute the file "./compute correlation/compute_correlation.ipynb" using the provided environment file "./compute correlation/requirements.txt" to compute the correlation of the computed IQA metrics and the annotations.
-
-In this repository, we provide annotations for the datasets:
-* [LIVE Image Quality Assessment Database Release 2](http://live.ece.utexas.edu/research/quality), converted to grayscale  with the in-built MATLAB function mat2gray
-* [LIVE Multiply Distorted Image Quality Database](https://live.ece.utexas.edu/research/Quality/live_multidistortedimage.html), converted to grayscale  with the in-built MATLAB function mat2gray
 
