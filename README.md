@@ -4,8 +4,8 @@ This repository contains a **collection of several IQA metrics** in Python (SSIM
 
 
 Furthermore, we provide **annotations** for the datasets:
-* [LIVE Image Quality Assessment Database Release 2](http://live.ece.utexas.edu/research/quality), converted to grayscale  with the in-built MATLAB function mat2gray
-* [LIVE Multiply Distorted Image Quality Database](https://live.ece.utexas.edu/research/Quality/live_multidistortedimage.html), converted to grayscale  with the in-built MATLAB function mat2gray
+* [LIVE Image Quality Assessment Database Release 2](http://live.ece.utexas.edu/research/quality), converted to grayscale  with the in-built MATLAB functions rgb2gray and mat2gray
+* [LIVE Multiply Distorted Image Quality Database](https://live.ece.utexas.edu/research/Quality/live_multidistortedimage.html), converted to grayscale  with the in-built MATLAB functions rgb2gray and mat2gray
 
 If you use this code or the annotations, please cite the paper:
 ```
